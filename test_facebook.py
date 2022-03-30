@@ -11,7 +11,7 @@ driver.maximize_window()
 driver.get("https://www.facebook.com/")
 driver.find_element_by_name("email").send_keys("arijitsameers@gmail.com")
 time.sleep(3)
-driver.find_element_by_name("pass").send_keys("sammu007")
+driver.find_element_by_name("pass").send_keys("sa007")
 time.sleep(5)
 
 driver.find_element_by_name("login").send_keys(Keys.ENTER)
